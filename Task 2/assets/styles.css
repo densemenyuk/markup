@@ -15,4 +15,50 @@ body {
   border-radius: 2%;
   width: 500px;
   height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.variables {
+  display: flex;
+  gap: 30px;
+  width: 500px;
+
+  flex-direction: column;
+}
+
+img {
+  height: 40px;
+}
+
+h2 {
+  font-size: 20px;
+  width: 140px;
+}
+
+.visa,
+.mastercard,
+.maestro {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  height: 70px;
+  width: 500px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+button {
+  width: 500px;
+  height: 80px;
+  cursor: pointer;
+  color: white;
+  font-size: 25px;
+  background-color: #6ca3f5;
+  border: 0;
+  border-bottom-left-radius: 2%;
+  border-bottom-right-radius: 2%;
 }
