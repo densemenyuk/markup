@@ -11,7 +11,7 @@ body {
 }
 
 .main {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-radius: 2%;
   width: 500px;
   height: 500px;
@@ -23,9 +23,7 @@ body {
 
 .variables {
   display: flex;
-  gap: 30px;
-  width: 500px;
-
+  margin-top: 30px;
   flex-direction: column;
 }
 
@@ -34,16 +32,19 @@ img {
   padding-left: 15px;
 }
 
+button img {
+  height: 22px;
+}
+
+.check {
+  margin-left: 110px;
+}
+
 .payment {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: gray;
 }
-
-/* h1 {
-  color: gray;
-} */
 
 h2 {
   font-size: 20px;
@@ -57,10 +58,30 @@ h2 {
   justify-content: start;
   align-items: center;
   gap: 40px;
-  height: 70px;
+  height: 80px;
   width: 500px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
+}
+
+.visa,
+.maestro {
+  color: gray;
+}
+
+.visa:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.mastercard:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.maestro:hover {
+  background-color: #ddd;
+  cursor: pointer;
 }
 
 button {
@@ -71,16 +92,36 @@ button {
   align-items: center;
   cursor: pointer;
   color: white;
-  font-size: 25px;
-  background-color: #6ca3f5;
+  font-size: 20px;
+  background-color: #1e90ff;
   border: 0;
-  border-bottom-left-radius: 2%;
-  border-bottom-right-radius: 2%;
+  border-bottom-left-radius: 10px 10px;
+  border-bottom-right-radius: 10px 10px;
+}
+
+button:hover {
+  background-color: #00bfff;
+}
+
+button:active {
+  transform: scaleY(0.98);
+  transition: transform 0.2s;
 }
 
 .dots {
-  font-size: 20px;
+  font-size: 25px;
   display: flex;
   gap: 5px;
+}
+
+.dot_one {
+  opacity: 1;
+}
+
+.dot_two {
   opacity: 0.5;
+}
+
+.dot_three {
+  opacity: 0.25;
 }
