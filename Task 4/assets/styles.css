@@ -40,3 +40,21 @@ body {
   width: 35px;
   margin-left: 160px;
 }
+
+.main__content__time {
+  margin: 0;
+  margin-left: 25px;
+}
+
+.main__content__messange {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6edf6;
+  font-weight: 500;
+  font-size: 18px;
+  width: 350px;
+  height: 60px;
+  margin-left: 25px;
+}
