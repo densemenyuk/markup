@@ -1,0 +1,10 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to bottom, #cfdde8, #8dadc8);
+}
+
+.main {
+  width: 300px;
+  height: 700px;
+}
