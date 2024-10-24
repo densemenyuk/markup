@@ -1,10 +1,35 @@
 body {
+  display: flex;
   height: 100vh;
   margin: 0;
+  font-family: Roboto;
+  justify-content: center;
+  align-items: center;
   background: linear-gradient(to bottom, #cfdde8, #8dadc8);
 }
 
 .main {
-  width: 300px;
-  height: 700px;
+  width: 550px;
+  height: 600px;
+  background-color: white;
+}
+
+.main__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  background-color: #6a96d8;
+  color: white;
+}
+
+.main__circle {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.main__header p {
+  margin: 0 0 0 15px;
 }
