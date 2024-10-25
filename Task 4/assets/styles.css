@@ -10,7 +10,7 @@ body {
 
 .main {
   width: 550px;
-  height: 700px;
+  height: 670px;
   background-color: white;
 }
 
@@ -100,9 +100,95 @@ body {
   background-color: #f2f2f2;
   font-weight: 600;
   font-size: 18px;
-  width: 320px;
+  width: 350px;
   height: 60px;
   border-radius: 5px;
   padding: 10px;
   margin: 5px 25px 0 0;
+}
+
+.third__message__time {
+  margin: 20px 0 5px 25px;
+  color: #aeb0b3;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.third__message__message {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6edf6;
+  font-weight: 600;
+  font-size: 18px;
+  width: 90px;
+  height: 30px;
+  margin-left: 25px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.fourth__message {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.fourth__message__message {
+  display: flex;
+  align-items: center;
+  background-color: #ffc2c1;
+  font-weight: 600;
+  font-size: 18px;
+  width: 250px;
+  height: 30px;
+  border-radius: 0 5px 5px 5px;
+  padding: 10px;
+  margin: 25px 25px 0 0;
+}
+
+.line {
+  height: 1px;
+  background-color: #dcdcdc;
+  width: 90%;
+  margin: 25px 25px 0 25px;
+}
+
+.send__message {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 25px;
+  height: 77px;
+  width: 500px;
+  gap: 135px;
+}
+
+.send__message__input {
+  display: flex;
+  align-items: center;
+  font-family: Roboto;
+  border: none;
+  width: 300px;
+  height: 50px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.send__message__input:focus {
+  outline: none;
+}
+
+.send__message__button {
+  display: flex;
+  justify-content: end;
+  border: none;
+  background: none;
+  color: #6a96d9;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.send__message__button:hover {
+  cursor: pointer;
 }
