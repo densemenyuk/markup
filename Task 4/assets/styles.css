@@ -10,7 +10,7 @@ body {
 
 .main {
   width: 550px;
-  height: 600px;
+  height: 700px;
   background-color: white;
 }
 
@@ -41,20 +41,41 @@ body {
   margin-left: 160px;
 }
 
-.main__content__time {
-  margin: 0;
-  margin-left: 25px;
+.day {
+  color: #dee0e4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 30px;
 }
 
-.main__content__messange {
+.day::before,
+.day::after {
+  content: "";
+  flex-basis: 55%;
+  border-bottom: 1px solid #dcdcdc;
+  margin: 0 20px;
+}
+
+.first__message__time {
+  margin: 0;
+  margin-left: 25px;
+  color: #aeb0b3;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.first__message__message {
   display: flex;
   margin: 0;
   justify-content: center;
   align-items: center;
   background-color: #e6edf6;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 18px;
-  width: 350px;
+  width: 320px;
   height: 60px;
   margin-left: 25px;
+  padding: 10px;
+  border-radius: 5px;
 }
