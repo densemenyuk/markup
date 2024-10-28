@@ -1,0 +1,10 @@
+body {
+  height: 100vh;
+  font-family: Roboto;
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
