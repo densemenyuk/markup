@@ -21,8 +21,14 @@ body {
 
 .root__countries {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 70px;
+}
+
+.root__countries__arrival {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
 }
 
 .line {
@@ -44,5 +50,5 @@ body {
   font-size: 18px;
   color: #aaaaaa;
   display: flex;
-  justify-content: space-around;
+  gap: 150px;
 }
