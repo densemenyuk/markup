@@ -14,7 +14,7 @@ body {
 
 .root {
   height: 600px;
-  width: 500px;
+  width: 550px;
   background-color: white;
   border-radius: 5px;
 }
@@ -55,8 +55,8 @@ body {
 .place {
   display: flex;
   justify-content: flex-start;
-  margin: 80px 0 0 52px;
-  gap: 90px;
+  margin: 70px 0 0 65px;
+  gap: 100px;
 }
 
 .place h4 {
@@ -68,4 +68,38 @@ body {
   margin: 0;
   font-size: 21px;
   font-weight: 500;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0 0 65px;
+  gap: 40px;
+  width: 150px;
+}
+
+.info h4,
+.info p {
+  margin: 0;
+}
+
+.info h4 {
+  color: #aaaaaa;
+}
+
+.info p {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.qr img {
+  width: 250px;
+}
+
+.qr {
+  width: 220px;
+  display: flex;
+  position: absolute;
+  top: 605px;
+  right: 710px;
 }
