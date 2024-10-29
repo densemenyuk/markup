@@ -22,29 +22,19 @@ body {
   margin: 100px 0 10px 75px;
 }
 
-.header h1,
-p {
-  margin: 0;
-  padding: 0;
-}
-
-.header h1 {
+.header__text {
   color: #000000;
   font-weight: 400;
   font-size: 48px;
   margin-bottom: 15px;
 }
 
-.header p {
+.header__paragraph {
   color: #b7adaa;
   font-weight: 400;
 }
 
-.social img {
-  width: 30px;
-}
-
-.social {
+.login__list {
   margin-top: 50px;
   color: #b7adaa;
   font-size: 11px;
@@ -52,6 +42,10 @@ p {
   display: flex;
   flex-direction: column;
   gap: 25px;
+}
+
+.login__list img {
+  width: 30px;
 }
 
 .google {
@@ -148,9 +142,6 @@ button:hover {
 .image {
   border-radius: 0 5px 5px 0;
   overflow: hidden;
-}
-
-.image img {
   object-fit: cover;
   object-position: center;
   width: 100%;
