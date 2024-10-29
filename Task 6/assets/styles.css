@@ -41,22 +41,77 @@ p {
 }
 
 .social img {
-  width: 40px;
+  width: 30px;
 }
 
 .social {
+  margin-top: 50px;
   color: #b7adaa;
-  font-size: 14px;
-  width: 650px;
+  font-size: 11px;
+  width: 600px;
   display: flex;
   flex-direction: column;
+  gap: 25px;
 }
 
 .google {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  border: 1px solid #eef0f3;
-  height: 90px;
+  justify-content: flex-start;
+  border: 2px solid #eef0f3;
+  height: 75px;
   margin-left: 75px;
+}
+
+.google img {
+  margin: 0 115px 0 20px;
+}
+
+.facebook {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 2px solid #eef0f3;
+  height: 75px;
+  margin-left: 75px;
+}
+
+.facebook img {
+  margin: 0 115px 0 20px;
+}
+
+.twitter {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 2px solid #eef0f3;
+  height: 75px;
+  margin-left: 75px;
+}
+
+.twitter img {
+  margin: 0 115px 0 20px;
+}
+
+.line {
+  height: 2px;
+  width: 670px;
+  background-color: #eef0f3;
+  margin-top: 40px;
+}
+
+.footer {
+  width: 600px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer h2 {
+  font-size: 15px;
+}
+
+.footer h3 {
+  color: #8b8b8c;
 }
