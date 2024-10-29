@@ -18,6 +18,10 @@ body {
   box-shadow: 10px 10px 15px -5px rgba(0, 0, 0, 0.5);
 }
 
+.header {
+  margin: 100px 0 10px 75px;
+}
+
 .header h1,
 p {
   margin: 0;
@@ -28,9 +32,31 @@ p {
   color: #000000;
   font-weight: 400;
   font-size: 48px;
+  margin-bottom: 15px;
 }
 
 .header p {
   color: #b7adaa;
   font-weight: 400;
+}
+
+.social img {
+  width: 40px;
+}
+
+.social {
+  color: #b7adaa;
+  font-size: 14px;
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+}
+
+.google {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #eef0f3;
+  height: 90px;
+  margin-left: 75px;
 }
