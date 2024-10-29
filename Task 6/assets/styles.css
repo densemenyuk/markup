@@ -10,6 +10,7 @@ body {
 }
 
 .root {
+  display: flex;
   height: 700px;
   width: 1200px;
   background-color: white;
@@ -62,6 +63,12 @@ p {
   margin-left: 75px;
 }
 
+.google:hover {
+  box-shadow: 4px 4px 10px 5px #eef0f3;
+  cursor: pointer;
+  color: #000000;
+}
+
 .google img {
   margin: 0 115px 0 20px;
 }
@@ -73,6 +80,12 @@ p {
   border: 2px solid #eef0f3;
   height: 75px;
   margin-left: 75px;
+}
+
+.facebook:hover {
+  box-shadow: 4px 4px 10px 5px #eef0f3;
+  cursor: pointer;
+  color: #000000;
 }
 
 .facebook img {
@@ -88,13 +101,19 @@ p {
   margin-left: 75px;
 }
 
+.twitter:hover {
+  box-shadow: 4px 4px 10px 5px #eef0f3;
+  cursor: pointer;
+  color: #000000;
+}
+
 .twitter img {
   margin: 0 115px 0 20px;
 }
 
 .line {
   height: 2px;
-  width: 670px;
+  width: 735px;
   background-color: #eef0f3;
   margin-top: 40px;
 }
@@ -113,18 +132,27 @@ p {
   font-size: 16px;
 }
 
-.footer h3 {
+.footer button {
   color: #8b8b8c;
   font-size: 15px;
+  font-weight: 600;
+  border: none;
+  background-color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #000000;
 }
 
 .image {
-  position: absolute;
-  top: 127px;
-  left: 1093px;
+  border-radius: 0 5px 5px 0;
+  overflow: hidden;
 }
 
 .image img {
-  height: 700px;
-  border-radius: 0 5px 5px 0;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
 }
