@@ -17,4 +17,64 @@ body {
   background-color: white;
   height: 600px;
   width: 1000px;
+  display: flex;
+}
+
+.left__sector {
+  height: 100%;
+  width: 40%;
+  background-color: #484956;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  padding: 50px 0 15px 35px;
+}
+
+.header h1,
+p,
+.line {
+  margin: 0;
+}
+
+.header p {
+  font-size: 32px;
+  color: #e4e4e6;
+}
+
+.line {
+  margin-top: 10px;
+  height: 3px;
+  width: 70px;
+  background-color: #e37b62;
+}
+
+.account {
+  display: flex;
+  padding: 50px 50px;
+  align-items: center;
+  font-size: 21px;
+  color: #fffffd;
+  gap: 15px;
+}
+
+.account img {
+  width: 70px;
+  border-radius: 50%;
+}
+
+.right__sector {
+  display: flex;
+  width: 60%;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  font-size: 21px;
+  padding: 40px 35px 0 35px;
+  line-height: 1.6;
 }
