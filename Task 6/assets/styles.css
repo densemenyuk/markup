@@ -48,60 +48,22 @@ body {
   width: 30px;
 }
 
-.google {
+.login__item {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   border: 2px solid #eef0f3;
   height: 75px;
-  margin-left: 75px;
+  margin-left: 35px;
 }
 
-.google:hover {
+.login__item:hover {
   box-shadow: 4px 4px 10px 5px #eef0f3;
   cursor: pointer;
   color: #000000;
 }
 
-.google img {
-  margin: 0 115px 0 20px;
-}
-
-.facebook {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  border: 2px solid #eef0f3;
-  height: 75px;
-  margin-left: 75px;
-}
-
-.facebook:hover {
-  box-shadow: 4px 4px 10px 5px #eef0f3;
-  cursor: pointer;
-  color: #000000;
-}
-
-.facebook img {
-  margin: 0 115px 0 20px;
-}
-
-.twitter {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  border: 2px solid #eef0f3;
-  height: 75px;
-  margin-left: 75px;
-}
-
-.twitter:hover {
-  box-shadow: 4px 4px 10px 5px #eef0f3;
-  cursor: pointer;
-  color: #000000;
-}
-
-.twitter img {
+.login__item img {
   margin: 0 115px 0 20px;
 }
 
@@ -113,20 +75,20 @@ body {
 }
 
 .footer {
-  width: 600px;
+  width: 700px;
   height: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-left: 30px;
-  gap: 55px;
+  gap: 50px;
+  /* font-size: 16px; */
 }
 
-.footer h2 {
+.footer__header {
   font-size: 16px;
 }
 
-.footer button {
+.login__button {
   color: #8b8b8c;
   font-size: 15px;
   font-weight: 600;
@@ -134,12 +96,12 @@ body {
   background-color: white;
 }
 
-button:hover {
+.login__button:hover {
   cursor: pointer;
   color: #000000;
 }
 
-.image {
+.side__image{
   border-radius: 0 5px 5px 0;
   overflow: hidden;
   object-fit: cover;
