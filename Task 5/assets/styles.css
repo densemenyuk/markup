@@ -38,13 +38,13 @@ body {
   margin-top: 45px;
 }
 
-.root__countries h2 {
+.root__countries__header {
   font-size: 64px;
   color: #3b8acf;
   margin: 0;
 }
 
-.root__countries p {
+.root__countries__paragraph {
   margin: 0;
   font-size: 18px;
   color: #aaaaaa;
@@ -52,54 +52,51 @@ body {
   gap: 150px;
 }
 
-.place {
+.general__information {
   display: flex;
   justify-content: flex-start;
   margin: 70px 0 0 65px;
   gap: 100px;
 }
 
-.place h4 {
+.general__information__header {
   color: #aaaaaa;
   margin: 0;
 }
 
-.place p {
+.general__information__paragraph {
   margin: 0;
   font-size: 21px;
   font-weight: 500;
 }
 
-.info {
+.passenger__info {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+
+.passenger__info__header {
+  margin: 0;
+  color: #aaaaaa;
+}
+
+.passenger__info__paragraph {
+  margin: 0;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.passenger__info__block {
   display: flex;
   flex-direction: column;
+  width: 160px;
   margin: 30px 0 0 65px;
   gap: 40px;
-  width: 150px;
-}
-
-.info h4,
-.info p {
-  margin: 0;
-}
-
-.info h4 {
-  color: #aaaaaa;
-}
-
-.info p {
-  font-size: 21px;
-  font-weight: 500;
-}
-
-.qr img {
-  width: 250px;
 }
 
 .qr {
-  width: 220px;
   display: flex;
-  position: absolute;
-  top: 477px;
-  right: 740px;
+  justify-content: center;
+  align-items: flex-end;
 }
