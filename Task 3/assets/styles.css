@@ -22,14 +22,17 @@ body {
 }
 
 .info {
-  width: 650px;
-  height: 400px;
-  margin-top: 30px;
+  margin-top: 35px;
 }
 
-.header h1 {
+.info__header__header {
   display: flex;
   justify-content: space-between;
+}
+
+.info__header__paragraph {
+  font-size: 20px;
+  color: gray;
 }
 
 .profile_icon {
@@ -47,11 +50,6 @@ body {
   box-shadow: -1px 1px 10px 5px rgba(0, 0, 0, 0.3);
 }
 
-.header p {
-  font-size: 20px;
-  color: gray;
-}
-
 .price_info {
   display: flex;
   flex-direction: column;
@@ -59,41 +57,19 @@ body {
   margin-top: 60px;
 }
 
-.speed,
-.gloves,
-.total {
+.price__info__item {
   display: flex;
   justify-content: space-between;
   height: 60px;
   align-items: center;
 }
-
-.speed,
-.gloves,
-.total h2 {
+.price__info__header {
   color: #5c5c5c;
 }
 
-.total h2 {
-  font-weight: 500;
-  font-size: 35px;
-}
-
-.speed p {
+.price__info__paragraph {
   font-size: 30px;
   font-weight: 500;
-  color: black;
-}
-
-.gloves p {
-  font-size: 30px;
-  font-weight: 600;
-  color: black;
-}
-
-.total p {
-  font-size: 30px;
-  font-weight: 600;
   color: black;
 }
 
