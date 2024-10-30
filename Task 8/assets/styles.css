@@ -1,0 +1,47 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #f8ebe9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.root {
+  width: 1200px;
+  height: 700px;
+  background-color: white;
+}
+
+.left__sector {
+  width: 35%;
+  height: 100%;
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.left__sector__button__group {
+  display: flex;
+  padding: 25px 0 0 40px;
+}
+
+.arrow__back {
+  fill: #6184ae;
+  width: 14px;
+}
+
+.left__sector__button {
+  background: none;
+  border: none;
+  font-family: Roboto;
+  text-transform: uppercase;
+  color: #637b99;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.left__sector__button:hover {
+  cursor: pointer;
+}
