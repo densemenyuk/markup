@@ -12,6 +12,7 @@ body {
   width: 1200px;
   height: 700px;
   background-color: white;
+  display: flex;
 }
 
 .left__sector {
@@ -44,4 +45,8 @@ body {
 
 .left__sector__button:hover {
   cursor: pointer;
+}
+
+.right__sector {
+  width: 65%;
 }
