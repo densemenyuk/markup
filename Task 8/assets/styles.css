@@ -95,3 +95,51 @@ body {
   background-color: black;
   margin: 0 0 35px 15px;
 }
+
+.paragraph {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  padding-right: 150px;
+}
+
+.photos__block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 365px;
+}
+
+.galery__block {
+  position: relative;
+}
+
+.preview__galery {
+  width: 210px;
+}
+
+.play {
+  position: absolute;
+  top: 60px;
+  left: 90px;
+}
+
+.all__photos {
+  display: flex;
+  width: 210px;
+  gap: 10px;
+}
+
+.photos__block__paragraph {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.description__block {
+  display: flex;
+  color: #4a494a;
+  font-family: Roboto;
+  font-size: 20px;
+}
