@@ -25,7 +25,7 @@ body {
 
 .left__sector__button__group {
   display: flex;
-  padding: 25px 0 0 40px;
+  padding: 35px 0 0 40px;
 }
 
 .arrow__back {
@@ -39,7 +39,7 @@ body {
   font-family: Roboto;
   text-transform: uppercase;
   color: #637b99;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 500;
 }
 
@@ -49,4 +49,21 @@ body {
 
 .right__sector {
   width: 65%;
+}
+
+.countries {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 35px 40px 0 0;
+}
+
+.default {
+  background: none;
+  text-decoration: none;
+  border: 0;
+  font-family: Roboto;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #999999;
 }
