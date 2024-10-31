@@ -67,3 +67,31 @@ body {
   text-transform: uppercase;
   color: #999999;
 }
+
+.default:active,
+:focus,
+:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.main__header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 270px;
+}
+
+.header {
+  font-family: Playfair Display;
+  font-size: 69px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.line {
+  width: 100px;
+  height: 4px;
+  background-color: black;
+  margin: 0 0 35px 15px;
+}
