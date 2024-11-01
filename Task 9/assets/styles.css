@@ -27,6 +27,7 @@ body {
   display: flex;
   justify-content: space-around;
   padding-top: 50px;
+  gap: 30px;
 }
 
 .left__sector__header {
@@ -41,8 +42,50 @@ body {
   background: none;
   border: none;
   text-decoration: none;
+  padding: 0;
+  width: 25px;
 }
 
 .left__sector__header__icon {
   width: 25px;
+  height: 25px;
+}
+
+.wallets__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  gap: 35px;
+}
+
+.wallets__item {
+  background-color: #fff;
+  border: 2px solid #dedede;
+  border-radius: 5px;
+  height: 150px;
+  width: 260px;
+}
+
+.card__info {
+  padding: 10px 0 0 10px;
+}
+
+.wallets__image {
+  width: 75px;
+  padding-bottom: 35px;
+}
+
+.card__number {
+  color: #747474;
+  font-size: 18px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.card__date {
+  color: #747474;
+  font-weight: 500;
+  font-size: 15px;
+  margin: 0;
 }
