@@ -1,5 +1,6 @@
 .right__sector {
   width: 65%;
+  overflow: auto;
 }
 
 .right__sector__header {
@@ -46,7 +47,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 40px 0 0 75px;
+  padding: 40px 0 50px 75px;
   gap: 35px;
   margin: 0;
 }
@@ -71,8 +72,8 @@
 }
 
 .item__list__overview__block {
-  padding: 0 100px 0 35px;
-  width: 275px;
+  padding: 0 75px 0 35px;
+  width: 300px;
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -92,4 +93,14 @@
 
 .item__list__price {
   color: #8797c6;
+  width: 69px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.item__list__price__confirmed {
+  color: #8ace5e;
+  width: 69px;
+  display: flex;
+  justify-content: flex-end;
 }
