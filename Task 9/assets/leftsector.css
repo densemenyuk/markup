@@ -15,6 +15,7 @@ body {
   background-color: #fff;
   border-radius: 0 5px 5px 0;
   box-shadow: 6px 6px 25px -10px black;
+  display: flex;
 }
 
 .left__sector {
@@ -72,13 +73,10 @@ body {
 
 .wallets__item:hover {
   cursor: pointer;
-}
-
-.wallets__item:active {
   border: 2px solid #8793c6;
 }
 
-.wallets__item:focus {
+.wallets__item:active {
   border: 2px solid #8793c6;
 }
 

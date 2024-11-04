@@ -1,0 +1,28 @@
+.right__sector {
+  width: 65%;
+}
+
+.right__sector__header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.right__sector__header__header {
+  font-weight: 400;
+  color: #333333;
+  margin: 0;
+}
+
+.right__sector__total__price {
+  font-weight: 600;
+  font-size: 32px;
+  color: #333333;
+  margin: 0;
+}
+
+.cents {
+  font-size: 0.7em;
+  vertical-align: super;
+}
