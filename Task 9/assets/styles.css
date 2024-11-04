@@ -56,7 +56,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px 0 25px 0px;
+  padding: 50px 0 50px 0px;
   gap: 35px;
   margin: 0;
 }
@@ -68,6 +68,18 @@ body {
   height: 150px;
   width: 260px;
   list-style: none;
+}
+
+.wallets__item:hover {
+  cursor: pointer;
+}
+
+.wallets__item:active {
+  border: 2px solid #8793c6;
+}
+
+.wallets__item:focus {
+  border: 2px solid #8793c6;
 }
 
 .card__info {
