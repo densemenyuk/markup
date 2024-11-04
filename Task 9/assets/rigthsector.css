@@ -7,6 +7,7 @@
   justify-content: space-around;
   align-items: center;
   padding-top: 50px;
+  gap: 70px;
 }
 
 .right__sector__header__header {
@@ -25,4 +26,65 @@
 .cents {
   font-size: 0.7em;
   vertical-align: super;
+}
+
+.line__block {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  align-items: flex-end;
+}
+
+.line {
+  height: 1px;
+  width: 505px;
+  background: #dedede;
+}
+
+.electronic__list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 0 0;
+  margin: 0;
+}
+
+.electronic__list__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  position: relative;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #dfdfdf;
+  border-radius: 50%;
+  position: absolute;
+  left: -4px;
+}
+
+.item__list__overview__block {
+  padding: 0 100px 0 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 0;
+}
+
+.item__list__header {
+  margin: 0;
+  font-size: 22px;
+  color: #333333;
+}
+
+.item__list__overview {
+  margin: 0;
+  color: #b4b4b4;
+}
+
+.item__list__price {
+  color: #8797c6;
 }
