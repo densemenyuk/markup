@@ -2,11 +2,13 @@
 html {
   display: flex;
   justify-content: center;
+  position: relative;
+  overflow: hidden;
 }
 
 body {
   font-family: Roboto;
   margin: 0;
   padding: 0;
-  width: 1440px;
+  width: 1250px;
 }

@@ -1,3 +1,7 @@
+.root {
+  height: 100vh;
+}
+
 .header {
   margin: 0;
   padding: 0;
@@ -8,12 +12,13 @@
 }
 
 .header__logo {
-  width: 25px;
+  width: 30px;
 }
 
 .nav {
   display: flex;
-  gap: 30px;
+  align-items: center;
+  gap: 50px;
   font-weight: 500;
 }
 
@@ -26,6 +31,7 @@
   color: inherit;
   box-shadow: none;
   outline: none;
+  height: 20px;
 }
 
 .header__button:hover {
@@ -45,21 +51,31 @@
 }
 
 .info__block {
-  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 700px;
 }
 
 .info__block__header {
   font-size: 36px;
   color: #333333;
+  padding-bottom: 50px;
 }
 
 .info__block__text {
+  padding-left: 30px;
+  line-height: 1.5;
   color: #999999;
   border-left: 2px solid #999999;
+  text-align: left;
+  margin: 0;
+  width: 460px;
 }
 
 .info__block__button {
-  margin: 0;
+  margin-top: 40px;
   padding: 0;
   border: none;
   background: #ea625c;
@@ -69,4 +85,15 @@
   text-transform: uppercase;
   width: 220px;
   height: 50px;
+}
+
+.info__block__button:hover {
+  cursor: pointer;
+  background: #de534e;
+}
+
+.first__page__image {
+  position: absolute;
+  top: 16%;
+  left: 75%;
 }
