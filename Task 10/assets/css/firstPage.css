@@ -2,13 +2,19 @@
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   color: #adabac;
+  padding-top: 50px;
+}
+
+.header__logo {
+  width: 25px;
 }
 
 .nav {
   display: flex;
-  gap: 25px;
+  gap: 30px;
+  font-weight: 500;
 }
 
 .header__button {
@@ -22,6 +28,45 @@
   outline: none;
 }
 
+.header__button:hover {
+  cursor: pointer;
+  color: black;
+  border-bottom: 2px solid black;
+}
+
 .header__input {
   all: unset;
+  margin: 0;
+  border-bottom: 2px solid #b2b2b3;
+}
+
+.header__input:focus {
+  color: black;
+}
+
+.info__block {
+  width: 500px;
+}
+
+.info__block__header {
+  font-size: 36px;
+  color: #333333;
+}
+
+.info__block__text {
+  color: #999999;
+  border-left: 2px solid #999999;
+}
+
+.info__block__button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: #ea625c;
+  font: inherit;
+  color: white;
+  outline: none;
+  text-transform: uppercase;
+  width: 220px;
+  height: 50px;
 }
