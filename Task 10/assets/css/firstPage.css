@@ -1,5 +1,6 @@
-.root {
+.first__page {
   height: 100vh;
+  width: 1250px;
 }
 
 .header {
@@ -31,7 +32,7 @@
   color: inherit;
   box-shadow: none;
   outline: none;
-  height: 20px;
+  height: 25px;
 }
 
 .header__button:hover {
@@ -44,6 +45,7 @@
   all: unset;
   margin: 0;
   border-bottom: 2px solid #b2b2b3;
+  height: 25px;
 }
 
 .header__input:focus {
@@ -94,6 +96,14 @@
 
 .first__page__image {
   position: absolute;
-  top: 16%;
+  padding: 0;
+  margin: 0;
+  top: 149px;
   left: 75%;
+}
+
+.line {
+  width: 100vw;
+  height: 2px;
+  background-color: #e0dfdf;
 }
