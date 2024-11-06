@@ -14,6 +14,7 @@
   text-transform: uppercase;
   color: #333333;
   font-size: 20px;
+  padding-bottom: 30px;
 }
 
 .second__page__info__block {
@@ -24,5 +25,49 @@
 
 .second__page__info__block__text {
   font-size: 16px;
-  color: #486a85;
+  color: #333333;
+}
+
+.dots {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+
+.dot {
+  width: 5px;
+  height: 5px;
+  background-color: #c4c4c4;
+  border-radius: 25%;
+}
+
+.button__line {
+  display: flex;
+  align-items: center;
+}
+
+.second__page__info__block__button__line {
+  width: 50px;
+  height: 2px;
+  background: #ea625c;
+}
+
+.second__page__info__block__button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: #ea625c;
+  box-shadow: none;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-left: 15px;
+}
+
+.button__line:hover {
+  cursor: pointer;
+  width: 60px;
 }
