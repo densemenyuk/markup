@@ -1,6 +1,6 @@
 .second__page {
-  height: 100vh;
   width: 1250px;
+  height: 1200px;
 }
 
 .second__page__info {
@@ -67,7 +67,26 @@
   padding-left: 15px;
 }
 
+.second__page__info__block__button:hover {
+  cursor: pointer;
+}
+
 .button__line:hover {
   cursor: pointer;
-  width: 60px;
+  width: 65px;
+}
+.second__page__overview {
+  width: 500px;
+}
+
+.second__page__image {
+  width: 480px;
+  height: auto;
+}
+
+.main__block {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
