@@ -4,3 +4,41 @@ body {
   padding: 0;
   background-color: #de8a89;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header {
+  font-size: 42px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  justify-content: space-between;
+  width: 149%;
+  margin: 60px 0 0 0;
+  padding: 0;
+}
+
+.active {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.default {
+  color: #ecb9b8;
+  margin: 0;
+  padding: 0;
+}
+
+.overview {
+  color: #fff;
+  font-size: 16px;
+  margin: 20px 0 0 0;
+  padding: 0;
+}
