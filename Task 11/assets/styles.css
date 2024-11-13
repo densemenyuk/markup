@@ -48,12 +48,12 @@ body {
   display: flex;
   text-align: left;
   width: 974px;
-  margin: 0;
+  margin: 60px 0 0 0;
   padding: 0;
 }
 
 .block__one {
-  width: 324px;
+  width: 33.3%;
   height: 324px;
   background: #3e3c3d;
   display: flex;
@@ -61,9 +61,10 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  position: relative;
 }
 .block__two {
-  width: 324px;
+  width: 33.3%;
   height: 324px;
   background: #353334;
   display: flex;
@@ -75,7 +76,7 @@ body {
 }
 
 .block__three {
-  width: 324px;
+  width: 33.3%;
   height: 324px;
   background: #201e1f;
   display: flex;
@@ -101,4 +102,21 @@ body {
   font-size: 32px;
   width: 100px;
   margin: 0;
+}
+
+.button__block {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: black;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font: inherit;
+  cursor: pointer;
+  width: 250px;
+  height: 50px;
+  border-radius: 4px;
+  top: 300px;
 }
