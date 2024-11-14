@@ -9,7 +9,13 @@ body {
   display: flex;
   justify-content: center;
   height: 100vh;
+  width: 100vw;
   overflow: hidden;
+}
+
+.main__block {
+  width: 960px;
+  /* width: 100vw; */
 }
 
 .header {
@@ -17,9 +23,9 @@ body {
   text-transform: uppercase;
   display: flex;
   flex-direction: row;
-  /* justify-content: center; */
+
   justify-content: space-between;
-  width: 149%;
+  width: 151%;
   margin: 60px 0 0 0;
   padding: 0;
 }
@@ -53,14 +59,14 @@ body {
   list-style: none;
   display: flex;
   text-align: left;
-  width: 974px;
+  width: 1050px;
   margin: 60px 0 0 0;
   padding: 0;
 }
 
 .block__one {
-  width: 33.3%;
-  height: 324px;
+  width: 320px;
+  height: 320px;
   background: #3e3c3d;
   display: flex;
   justify-content: center;
@@ -70,8 +76,8 @@ body {
   position: relative;
 }
 .block__two {
-  width: 33.3%;
-  height: 324px;
+  width: 320px;
+  height: 320px;
   background: #353334;
   display: flex;
   justify-content: center;
@@ -82,8 +88,8 @@ body {
 }
 
 .block__three {
-  width: 33.3%;
-  height: 324px;
+  width: 320px;
+  height: 320px;
   background: #201e1f;
   display: flex;
   justify-content: center;
@@ -98,7 +104,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   text-align: left;
-  width: 100px;
+  width: 180px;
   margin: 0;
 }
 
@@ -106,7 +112,7 @@ body {
   color: #fff;
   text-align: left;
   font-size: 32px;
-  width: 100px;
+  width: 180px;
   margin: 0;
 }
 
@@ -121,10 +127,11 @@ body {
   text-transform: uppercase;
   font: inherit;
   cursor: pointer;
-  width: 250px;
-  height: 50px;
+  width: 260px;
+  height: 60px;
   border-radius: 4px;
-  top: 300px;
+  top: 290px;
+  transition: transform 0.3s ease;
 }
 
 .button__block:hover {
