@@ -105,3 +105,22 @@ body {
   font-weight: 600;
   color: #757575;
 }
+
+.form__controls {
+  display: flex;
+  gap: 45px;
+}
+
+.form__controls__button {
+  border: none;
+  outline: none;
+  background: none;
+  color: #6f6a3f;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.form__controls__button:hover {
+  cursor: pointer;
+  color: black;
+}
