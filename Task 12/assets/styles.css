@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: Roboto;
+  background: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__content {
+  height: 750px;
+  width: 600px;
+  background: #fdec51;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 70px;
+  margin-top: 50px;
+}
+
+.header__header {
+  font-weight: 400;
+}
+
+.close__image {
+  width: 25px;
+  height: 25px;
+}
