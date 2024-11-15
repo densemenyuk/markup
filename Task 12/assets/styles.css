@@ -109,6 +109,9 @@ body {
 .form__controls {
   display: flex;
   gap: 45px;
+  position: relative;
+  top: 575px;
+  left: 330px;
 }
 
 .form__controls__button {
