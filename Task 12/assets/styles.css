@@ -63,3 +63,29 @@ body {
   top: -40px;
   left: 50px;
 }
+
+.profile__form__header {
+  color: #aaaaaa;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.profile__form__input {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: none;
+  box-shadow: none;
+  outline: none;
+  color: #757575;
+  border-bottom: 1px solid #dedede;
+  font-weight: 700;
+  /* width: 100%; */
+  position: relative;
+}
+
+.profile__form__input::after {
+  content: "";
+  width: 150px;
+  border-bottom: 1px solid #dedede;
+}
