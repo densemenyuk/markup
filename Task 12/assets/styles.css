@@ -48,6 +48,8 @@ body {
   position: absolute;
   left: 85px;
   margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .profile__image {
@@ -61,7 +63,19 @@ body {
   position: absolute;
   z-index: 1;
   top: -40px;
-  left: 50px;
+}
+
+.profile__form {
+  width: 525px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.name__lastname {
+  display: flex;
 }
 
 .profile__form__header {
@@ -79,13 +93,15 @@ body {
   outline: none;
   color: #757575;
   border-bottom: 1px solid #dedede;
-  font-weight: 700;
-  /* width: 100%; */
+  font-weight: 600;
   position: relative;
+  padding-bottom: 8px;
 }
 
-.profile__form__input::after {
-  content: "";
-  width: 150px;
+.profile__form__input__bio {
+  border: none;
+  outline: none;
   border-bottom: 1px solid #dedede;
+  font-weight: 600;
+  color: #757575;
 }
