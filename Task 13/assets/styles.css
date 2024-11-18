@@ -20,4 +20,38 @@ body {
   border-radius: 5px;
   box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.3);
   background: linear-gradient(to right bottom, #ba7ed9, #9077ce);
+  display: flex;
+  justify-content: center;
+}
+
+.main__block__header {
+  height: 100px;
+  width: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image__block {
+  height: 60px;
+  background: #fff;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__image {
+  width: 18px;
+  height: 18px;
+}
+
+.main__block__paragraph {
+  margin: 0;
+  color: #fff;
+  font-weight: 500;
+  padding-right: 100px;
 }
