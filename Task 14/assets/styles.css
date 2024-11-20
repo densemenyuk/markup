@@ -7,4 +7,33 @@ body {
 .container {
   height: 100vh;
   background: #4a4b72;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  width: 400px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.default {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background: #353648;
+}
+
+.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85px;
+  height: 75px;
+  background: #212121;
 }
