@@ -18,22 +18,37 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2px;
 }
 
 .default {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 60px;
-  height: 60px;
+  width: 65px;
+  height: 65px;
   background: #353648;
+}
+
+.default:hover {
+  background: #2c2d38;
+  cursor: pointer;
 }
 
 .active {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 85px;
-  height: 75px;
+  width: 95px;
+  height: 80px;
   background: #212121;
+  margin: 0 -2px;
+}
+
+.image__active {
+  width: 35px;
+  height: 35px;
 }
