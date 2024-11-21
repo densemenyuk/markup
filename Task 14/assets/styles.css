@@ -124,7 +124,33 @@ body {
   border-bottom: 2px solid #e1e1e1;
 }
 
-.meal__item :last-child:hover {
+.meal__item:hover {
+  cursor: pointer;
+}
+
+.meal__item__last {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.meal__item__last:hover {
+  cursor: pointer;
+}
+
+.meal__item:hover {
+  cursor: pointer;
+}
+
+.meal__item:hover .meal__list__number {
+  cursor: pointer;
+  font-size: 23px;
+  color: black;
+}
+
+.meal__item__last:hover .meal__list__number {
   cursor: pointer;
   font-size: 23px;
   color: black;
@@ -133,6 +159,8 @@ body {
 .meal__list__text {
   color: #8b8b90;
   margin: 0 20px;
+  font-weight: 300;
+  font-size: 17px;
 }
 
 .meal__list__number {
