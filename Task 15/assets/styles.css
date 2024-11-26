@@ -79,6 +79,10 @@ body {
   gap: 7px;
 }
 
+.right__button:hover {
+  cursor: pointer;
+}
+
 .rigth__part__content {
   display: flex;
   flex-direction: column;
