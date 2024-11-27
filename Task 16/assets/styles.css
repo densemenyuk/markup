@@ -8,4 +8,28 @@ body {
   margin: 0;
   height: 100vh;
   background: #78accd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendar {
+  width: 350px;
+  height: 350px;
+  background: #fff;
+}
+
+.calendar__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 90px;
+  border-bottom: 2px solid #dedede;
+}
+
+.date__header {
+  font-size: 14px;
+  color: #7d8994;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
