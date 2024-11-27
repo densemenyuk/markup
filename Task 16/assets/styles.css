@@ -33,3 +33,57 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.table__calendar {
+  width: 315px;
+  height: 235px;
+}
+
+.days {
+  color: #7d8994;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.dates {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 21px;
+  margin-top: 18px;
+}
+
+.previous__month {
+  color: #dedede;
+  display: flex;
+  justify-content: center;
+  width: 21px;
+}
+
+.now__month {
+  display: flex;
+  justify-content: center;
+  width: 21px;
+}
+
+.table__container {
+  display: flex;
+  justify-content: center;
+}
+
+.calendar__body {
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.table__calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.table__days {
+  display: flex;
+  gap: 15px;
+}
