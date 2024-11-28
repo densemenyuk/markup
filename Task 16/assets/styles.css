@@ -63,7 +63,22 @@ body {
 .now__month {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 21px;
+  height: 21px;
+}
+
+.now__month__seven {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21px;
+  border: 1px solid #de6e46;
+  background: #de6e46;
+  border-radius: 50%;
+  color: #fff;
+  width: 21px;
+  height: 21px;
 }
 
 .table__container {
@@ -91,4 +106,21 @@ body {
 
 .footer {
   display: flex;
+  height: 64px;
+  width: 350px;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 500;
+  justify-content: center;
+  gap: 100px;
+}
+
+.plus {
+  width: 25px;
+  height: 25px;
+  border: 2px solid #de6e46;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
