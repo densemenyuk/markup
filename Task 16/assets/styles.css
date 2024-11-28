@@ -30,13 +30,13 @@ body {
 .date__header {
   font-size: 14px;
   color: #7d8994;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .table__calendar {
   width: 315px;
-  height: 235px;
+  height: 225px;
 }
 
 .days {
@@ -50,7 +50,7 @@ body {
   flex-direction: row;
   justify-content: center;
   gap: 21px;
-  margin-top: 18px;
+  margin-top: 17px;
 }
 
 .previous__month {
@@ -69,6 +69,7 @@ body {
 .table__container {
   display: flex;
   justify-content: center;
+  border-bottom: 2px solid #dedede;
 }
 
 .calendar__body {
@@ -80,10 +81,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .table__days {
   display: flex;
   gap: 15px;
+}
+
+.footer {
+  display: flex;
 }
