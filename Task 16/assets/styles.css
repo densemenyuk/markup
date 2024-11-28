@@ -86,6 +86,33 @@ body {
   font-size: 13px;
 }
 
+.now__month__sixtten {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21px;
+  border: 1px solid #de6e46;
+
+  border-radius: 50%;
+
+  width: 21px;
+  height: 21px;
+  font-size: 13px;
+}
+
+.now__month__nineteen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21px;
+  border: 1px solid #ae5989;
+  border-radius: 50%;
+
+  width: 21px;
+  height: 21px;
+  font-size: 13px;
+}
+
 .table__container {
   display: flex;
   justify-content: center;
