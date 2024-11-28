@@ -8,4 +8,51 @@ body {
   height: 100vh;
   margin: 0;
   background: #c9f8fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__block {
+  height: 500px;
+  width: 850px;
+  background: #fff;
+}
+
+.left__sector {
+  min-height: 100%;
+  width: 45%;
+  background-image: url("img/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.left__sector__block {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.left__sector__header {
+  margin: 0;
+  color: #fff;
+}
+
+.left__sector__text {
+  margin: 0;
+  color: #fff;
+}
+
+.left__sector__button {
+  margin: 0;
+  outline: none;
+  background: 0;
+  border: 0;
+  color: #fff;
 }
