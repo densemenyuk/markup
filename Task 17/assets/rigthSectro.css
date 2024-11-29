@@ -1,0 +1,27 @@
+.right__sector {
+  display: flex;
+  width: 55%;
+  height: auto;
+}
+
+.right__sector__block {
+  width: 100%;
+}
+
+.right__sector__menu {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px 0 30px;
+}
+
+.burger__menu {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.burger__menu:hover {
+  cursor: pointer;
+}
