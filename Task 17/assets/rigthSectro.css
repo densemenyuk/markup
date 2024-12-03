@@ -25,3 +25,30 @@
 .burger__menu:hover {
   cursor: pointer;
 }
+
+.time__line {
+  width: 429px;
+  overflow: hidden;
+}
+
+.years__list {
+  list-style: none;
+  padding: 10px 30px 0 30px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  width: 423px;
+}
+
+.selected:hover {
+  cursor: pointer;
+}
+
+.unselected {
+  color: #c2c2c2;
+}
+
+.unselected:hover {
+  cursor: pointer;
+}
