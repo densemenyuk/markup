@@ -15,8 +15,8 @@ body {
 
 .content {
   height: 500px;
-  width: 315px;
-  border-top: 35px solid black;
+  width: 300px;
+  border-top: 10px solid black;
   border-right: 10px solid black;
   border-bottom: 10px solid black;
   border-left: 10px solid black;
@@ -25,17 +25,31 @@ body {
   justify-content: center;
   overflow: hidden;
   position: relative;
+  z-index: 1;
+}
+
+.notch {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 25px;
+  background: #000;
+  border-radius: 0 0 13px 13px;
+
+  z-index: 2;
 }
 
 .overlay {
   background-color: #5288f4;
   position: absolute;
   transform: skewX(60deg);
-  width: 371px;
+  width: 388px;
   height: 250px;
   z-index: -1;
   top: 0;
-  left: 160px;
+  left: 115px;
 }
 
 .card {
@@ -43,7 +57,7 @@ body {
   flex-direction: column;
   align-items: center;
   height: 40%;
-  padding: 15px 0 0 0;
+  padding: 35px 0 0 0;
   gap: 20px;
   z-index: 1;
 }
