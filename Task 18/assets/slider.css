@@ -11,6 +11,7 @@
   opacity: 0;
   width: 44px;
   height: 25px;
+  cursor: pointer;
 }
 
 /* Стили для слайдера */
@@ -42,12 +43,12 @@
 }
 
 /* Когда checkbox отмечен */
-input:checked + .slider {
+.slider:has(input:checked) {
   background-color: #5288f4; /* Цвет фона при включении */
 }
 
 /* Перемещаем круглую кнопку вправо при включении */
-input:checked + .slider:before {
+.slider:has(input:checked):before {
   transform: translateX(20px);
 }
 
