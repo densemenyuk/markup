@@ -43,12 +43,12 @@
 
 /* Когда checkbox отмечен */
 input:checked + .slider {
-  background-color: #2196f3; /* Цвет фона при включении */
+  background-color: #5288f4; /* Цвет фона при включении */
 }
 
 /* Перемещаем круглую кнопку вправо при включении */
 input:checked + .slider:before {
-  transform: translateX(26px);
+  transform: translateX(20px);
 }
 
 /* Стили для придания слайдеру вида переключателя */
