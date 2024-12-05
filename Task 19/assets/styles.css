@@ -121,6 +121,12 @@ body {
   width: 17px;
 }
 
+.main__location {
+  font-weight: 500;
+  font-size: 12px;
+  padding: 25px 30px 0 30px;
+}
+
 .direction__block {
   display: flex;
   flex-direction: column;
