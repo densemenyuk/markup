@@ -19,6 +19,7 @@ body {
   width: 400px;
   height: 600px;
   background: #fff;
+  /* position: relative; */
 }
 
 .nav {
@@ -50,4 +51,47 @@ body {
   font-weight: 500;
   font-size: 13px;
   transform: scaleY(1.2);
+}
+
+.map__block {
+  height: 130px;
+  width: 430px;
+  background-image: url(img/map.png);
+  background-color: rgba(70, 119, 246, 0.8);
+  background-repeat: repeat;
+  background-position: center;
+  position: relative;
+  margin-top: 15px;
+  transform: translateX(-15px);
+  border-radius: 3px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background-color: rgba(70, 119, 246, 0.7);
+  height: 130px;
+  width: 430px;
+  position: absolute;
+}
+
+.content__block {
+  z-index: 1;
+  color: #fff;
+  display: flex;
+  height: 80px;
+  width: 80%;
+}
+
+.content__block__image {
+  width: 20px;
+}
+
+.start__location {
+  display: flex;
+  font-weight: 500;
+  font-size: 13px;
+  margin: 0;
 }
