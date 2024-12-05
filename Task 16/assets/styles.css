@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+
+.container {
+  margin: 0;
+  height: 100vh;
+  background: #78accd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendar {
+  width: 350px;
+  height: 350px;
+  background: #fff;
+}
+
+.calendar__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 90px;
+  border-bottom: 2px solid #dedede;
+}
+
+.date__header {
+  font-size: 14px;
+  color: #7d8994;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.table__calendar {
+  width: 315px;
+  height: 225px;
+}
+
+.days {
+  color: #7d8994;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.dates {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 21px;
+  margin-top: 17px;
+}
+
+.previous__month {
+  color: #dedede;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21px;
+  height: 21px;
+  font-size: 13px;
+}
+
+.now__month {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21px;
+  height: 21px;
+  font-size: 13px;
+}
+
+.now__month__seven {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21px;
+  border: 1px solid #de6e46;
+  background: #de6e46;
+  border-radius: 50%;
+  color: #fff;
+  width: 21px;
+  height: 21px;
+  font-size: 13px;
+}
+
+.now__month__sixtten {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21px;
+  border: 1px solid #de6e46;
+
+  border-radius: 50%;
+
+  width: 21px;
+  height: 21px;
+  font-size: 13px;
+}
+
+.now__month__nineteen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21px;
+  border: 1px solid #ae5989;
+  border-radius: 50%;
+
+  width: 21px;
+  height: 21px;
+  font-size: 13px;
+}
+
+.table__container {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #dedede;
+}
+
+.calendar__body {
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.table__calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.table__days {
+  display: flex;
+  gap: 15px;
+}
+
+.footer {
+  display: flex;
+  height: 64px;
+  width: 350px;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 500;
+  justify-content: center;
+  gap: 100px;
+}
+
+.plus {
+  width: 25px;
+  height: 25px;
+  border: 2px solid #de6e46;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

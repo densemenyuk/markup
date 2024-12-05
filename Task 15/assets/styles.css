@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+
+.container {
+  height: 100vh;
+  background-image: url("./img/background.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+
+.left__part {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 50px;
+}
+
+.arrow__button {
+  padding: 0;
+  background: none;
+  outline: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  width: 80px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.arrow__button:hover {
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  left: 70%;
+  height: 100vh;
+  width: 43%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgba(232, 191, 47, 0.7);
+  transform: skewX(-9deg);
+  transform-origin: top left;
+  z-index: -1;
+}
+
+.right__part {
+  z-index: 1;
+  width: 500px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 25px;
+}
+
+.right__button {
+  padding: 0;
+  background: none;
+  outline: none;
+  border: none;
+  display: flex;
+  text-transform: uppercase;
+  align-items: center;
+
+  font-weight: 700;
+  font-size: 16px;
+  gap: 7px;
+}
+
+.right__button:hover {
+  cursor: pointer;
+}
+
+.rigth__part__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+.right__button_text {
+  margin: 0;
+}
+
+.right__part__main__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  width: 300px;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.right__part__main__text__header {
+  font-size: 100px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.right__part__main__text__paragraph {
+  margin: 0;
+}
+
+.rigth__part__content__views {
+  display: flex;
+  font-weight: 500;
+  gap: 10px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 50px;
+}

@@ -1,0 +1,19 @@
+@import url(firstPage.css);
+@import url(secondPage.css);
+@import url(thirdPage.css);
+
+body {
+  font-family: Roboto;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
