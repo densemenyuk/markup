@@ -130,6 +130,7 @@ body {
 .direction__item {
   display: flex;
   gap: 20px;
+  padding-top: 15px;
 }
 
 .info__block__text {
@@ -141,4 +142,21 @@ body {
 .info__block__header {
   margin: 5px 0 0 0;
   font-size: 12px;
+}
+
+.streetview__block {
+  height: 60px;
+  width: 363px;
+  display: flex;
+  background: url(img/streetview.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 0 0 7px;
+  margin-top: 20px;
+  border-radius: 5px 0 0 5px;
+}
+
+.streetview__block__image {
+  width: 18px;
 }
