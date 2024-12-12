@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: Roboto;
+  background: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__content {
+  height: 750px;
+  width: 600px;
+  background: #fdec51;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 70px;
+  margin-top: 50px;
+}
+
+.header__header {
+  font-weight: 400;
+  position: relative;
+}
+
+.close__image {
+  width: 25px;
+  height: 25px;
+}
+
+.user__info {
+  width: 600px;
+  height: 500px;
+  background: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 85px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile__image {
+  position: relative;
+}
+
+.avatar {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  top: -40px;
+}
+
+.profile__form {
+  width: 525px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.name__lastname {
+  display: flex;
+}
+
+.profile__form__header {
+  color: #aaaaaa;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.profile__form__input {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: none;
+  box-shadow: none;
+  outline: none;
+  color: #757575;
+  border-bottom: 1px solid #dedede;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 8px;
+}
+
+.profile__form__input__bio {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #dedede;
+  font-weight: 600;
+  color: #757575;
+}
+
+.form__controls {
+  display: flex;
+  gap: 45px;
+  position: relative;
+  top: 575px;
+  left: 330px;
+}
+
+.form__controls__button {
+  border: none;
+  outline: none;
+  background: none;
+  color: #6f6a3f;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.form__controls__button:hover {
+  cursor: pointer;
+  color: black;
+}

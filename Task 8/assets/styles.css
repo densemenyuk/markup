@@ -25,7 +25,7 @@ body {
 
 .left__sector__button__group {
   display: flex;
-  padding: 25px 0 0 40px;
+  padding: 35px 0 0 40px;
 }
 
 .arrow__back {
@@ -39,7 +39,7 @@ body {
   font-family: Roboto;
   text-transform: uppercase;
   color: #637b99;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 500;
 }
 
@@ -49,4 +49,120 @@ body {
 
 .right__sector {
   width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+
+.countries {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 35px 40px 0 0;
+}
+
+.default {
+  background: none;
+  text-decoration: none;
+  border: 0;
+  font-family: Roboto;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #999999;
+  font-weight: 500;
+}
+
+.default:active,
+:hover,
+:focus {
+  color: black;
+  cursor: pointer;
+}
+
+.main__header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 270px;
+}
+
+.header {
+  font-family: Playfair Display;
+  font-size: 69px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.line {
+  width: 100px;
+  height: 4px;
+  background-color: black;
+  margin: 0 0 35px 15px;
+}
+
+.paragraph {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  padding-right: 150px;
+  margin: 35px 0 35px 0;
+}
+
+.photos__block {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+  margin-left: 25px;
+}
+
+.galery__block {
+  position: relative;
+}
+
+.play {
+  position: absolute;
+  top: 60px;
+  left: 90px;
+}
+
+.preview__galery {
+  width: 210px;
+  position: relative;
+}
+
+.all__photos {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.photos__block__paragraph {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.description__block {
+  display: flex;
+  color: #4a494a;
+  margin: 0;
+  font-family: Roboto;
+  font-size: 18px;
+  width: 34%;
+  line-height: 1.7;
+  text-align: left;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fbf6f9;
+  /* background-color: black; */
+  opacity: 0.5;
+  position: absolute;
+  top: 48px;
+  left: 76px;
 }

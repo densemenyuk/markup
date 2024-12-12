@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Loop 2 - Step 2</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!--
+    FYI:
+    Textarea resize in the design is a native feature of browsers.
+    Also there is no close icon in the assets, so you should try to find another way of implementing it.
+  -->
+    <div class="container">
+      <div class="main__content">
+        <div class="header">
+          <h2 class="header__header">Account settngs</h2>
+          <img class="close__image" src="img/crossed.png" alt="close" />
+        </div>
+        <div class="user__info">
+          <div class="profile__image">
+            <img class="avatar" src="img/avatar.jpg" alt="avatar" />
+          </div>
+          <div class="profile__form">
+            <h3 class="profile__form__header">username</h3>
+            <input
+              class="profile__form__input"
+              type="text"
+              placeholder="Enter your username"
+              size="45"
+            />
+            <div class="name__lastname">
+              <div>
+                <h3 class="profile__form__header">first name</h3>
+                <input
+                  class="profile__form__input"
+                  type="text"
+                  placeholder="Enter your first name"
+                  size="30"
+                />
+              </div>
+              <div>
+                <h3 class="profile__form__header">last name</h3>
+                <input
+                  class="profile__form__input"
+                  type="text"
+                  placeholder="Enter your last name"
+                  size="33"
+                />
+              </div>
+            </div>
+            <h3 class="profile__form__header">email</h3>
+            <input
+              class="profile__form__input"
+              type="text"
+              placeholder="Enter your email"
+              size="77"
+            />
+            <h3 class="profile__form__header">bio</h3>
+            <input
+              class="profile__form__input__bio"
+              type="text"
+              placeholder="Tell us about yourself"
+              size="77"
+            />
+          </div>
+        </div>
+        <div class="form__controls">
+          <button class="form__controls__button">Cancel</button>
+          <button class="form__controls__button">Save</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

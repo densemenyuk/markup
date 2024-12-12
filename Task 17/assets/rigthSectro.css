@@ -1,0 +1,129 @@
+.right__sector {
+  display: flex;
+  width: 55%;
+  height: auto;
+}
+
+.right__sector__block {
+  width: 100%;
+}
+
+.right__sector__menu {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px 0 30px;
+}
+
+.burger__menu {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.burger__menu:hover {
+  cursor: pointer;
+}
+
+.time__line {
+  width: 429px;
+  overflow: hidden;
+}
+
+.years__list {
+  list-style: none;
+  padding: 10px 30px 0 30px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  width: 423px;
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent,
+    #fff 0%,
+    #fff 65%,
+    transparent
+  );
+}
+
+.selected:hover {
+  cursor: pointer;
+}
+
+.unselected {
+  color: #c2c2c2;
+}
+
+.unselected:hover {
+  cursor: pointer;
+}
+
+.theme__list {
+  list-style: none;
+  padding: 20px 30px 0 30px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 340px;
+}
+
+.theme__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.theme__item__main__info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.theme__item__image {
+  width: 35px;
+  height: 35px;
+}
+
+.theme__item__image__two {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+.theme__item__text {
+  margin: 0;
+  font-size: 13px;
+}
+
+.theme__item__date__block {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.theme__item__date__block__date {
+  margin: 0;
+  font-weight: 300;
+  font-size: 36px;
+}
+
+.years__month__block {
+  font-size: 13px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.theme__item__date__block__month {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.theme__item__date__block__year {
+  margin: 0;
+}

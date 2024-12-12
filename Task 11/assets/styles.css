@@ -1,0 +1,140 @@
+body {
+  font-family: Roboto;
+  margin: 0;
+  padding: 0;
+  background-color: #de8a89;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.main__block {
+  width: 960px;
+  /* width: 100vw; */
+}
+
+.header {
+  font-size: 42px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  width: 151%;
+  margin: 60px 0 0 0;
+  padding: 0;
+}
+
+.active {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.default {
+  color: #ecb9b8;
+  margin: 0;
+  padding: 0;
+}
+
+.default:hover {
+  color: #f1c8c7;
+  cursor: pointer;
+}
+
+.overview {
+  color: #fff;
+  font-size: 16px;
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+
+.blocks {
+  list-style: none;
+  display: flex;
+  text-align: left;
+  width: 1050px;
+  margin: 60px 0 0 0;
+  padding: 0;
+}
+
+.block__one {
+  width: 320px;
+  height: 320px;
+  background: #3e3c3d;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+.block__two {
+  width: 320px;
+  height: 320px;
+  background: #353334;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.block__three {
+  width: 320px;
+  height: 320px;
+  background: #201e1f;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.blocks__paragraph {
+  color: #d28f8b;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: left;
+  width: 180px;
+  margin: 0;
+}
+
+.blocks__header {
+  color: #fff;
+  text-align: left;
+  font-size: 32px;
+  width: 180px;
+  margin: 0;
+}
+
+.button__block {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: black;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font: inherit;
+  cursor: pointer;
+  width: 260px;
+  height: 60px;
+  border-radius: 4px;
+  top: 290px;
+  transition: transform 0.3s ease;
+}
+
+.button__block:hover {
+  transform: translateY(-4px);
+  transition: transform 0.3s ease;
+}

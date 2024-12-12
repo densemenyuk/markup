@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Loop 2 - Challenge</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!--
+    Ah, it smells like a new challenge!
+
+    This time we build a concept of some job search website.
+    It's more about small details this time and if you haven't yet tried splitting
+    your css into separate component files - that's the perfect time to try.
+    (Use @import in css to achieve that)
+
+    The other gimmick we introduce here is about using font icons instead of inserting images into our code.
+    The easiest out-of-the-box method is to use Google Material Icons,
+    so read about the implementation before you start:
+    https://material.io/icons/
+
+    And good luck!
+  -->
+    <div class="container">
+      <div class="header__block">
+        <div class="header">
+          <div class="logo">
+            <img class="logo__img" src="img/logo.png" alt="" />
+          </div>
+          <div class="search">
+            <input class="search__input" type="text" placeholder="Search" />
+            <button class="button__search">
+              <img
+                class="search__logo"
+                src="img/search_24dp_5F6368.png"
+                alt="#"
+              />
+            </button>
+          </div>
+          <div class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">Home</li>
+              <li class="nav__item">Profile</li>
+              <li class="nav__item">Connections</li>
+              <li class="nav__item">Interest</li>
+              <li class="nav__item buy__item">Try Premium</li>
+            </ul>
+          </div>
+          <div class="buttons__actions">
+            <ul class="buttons__actions__list">
+              <li class="buttons__actions__item">
+                <img src="img/comment_24dp_5F6368.svg" alt="#" />
+              </li>
+              <li class="buttons__actions__item">
+                <img src="img/notifications_24dp_5F6368.svg" alt="#" />
+              </li>
+              <li class="buttons__actions__item">
+                <img src="img/person_add_24dp_5F6368.svg" alt="#" />
+              </li>
+            </ul>
+          </div>
+          <div class="image__profile">
+            <img class="avatar" src="img/avatar.jpg" alt="#" />
+          </div>
+        </div>
+      </div>
+      <div class="header__part__two">
+        <ul class="header__part__two__button__list">
+          <li class="header__part__two__button__item">
+            <button class="button">Posts</button>
+          </li>
+          <li class="header__part__two__button__item">
+            <button class="button">Background</button>
+          </li>
+          <li class="header__part__two__button__item">
+            <button class="button">Recommendations</button>
+          </li>
+          <li class="header__part__two__button__item">
+            <button class="button">Following</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
