@@ -1,0 +1,14 @@
+.main__content__block {
+  display: flex;
+  justify-content: center;
+}
+
+.main__content {
+  width: 1280px;
+}
+
+.side__profile {
+  width: 250px;
+  height: 600px;
+  background: #fff;
+}
